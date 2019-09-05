@@ -1,0 +1,48 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="app.js"></script>
+
+<head>
+	<title>Práctica 2 - El Juego De La Vida</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style>
+		canvas{
+			margin: 0px;
+			padding: 0px;
+			border:1px solid #000000;
+			background-color: white;
+		}
+	</style>
+</head>
+
+
+<body>
+	<h1>
+	  <center>Tres en Raya</center>
+	</h1>
+
+	<center><div class="panel">
+		<span>Nombre: </span><input type="text" id="name" placeholder="Nombre"/>
+		<span>Sala: </span><input type="text"
+			name="room" id="room" placeholder="Nombre de la sala" maxlength="20"
+			style="width: 10%" />
+		<button id="create-btn">Crear</button>
+		<button id="join-btn">Unirse</button>
+		<button id="exit-btn">Salir</button>
+	</center></div>
+	
+	<center><canvas style="background-color: white;" id="canvas3" width="350" height="100"></canvas></center>
+	
+	<div>
+		  <center><canvas id="canvas1" width="300" height="300"></canvas></center>
+	</div>
+	
+	<div>
+		<center>Top partidas ganadas:</center>
+		<center><canvas style="background-color: white;" id="canvas2" width="350" height="300"></canvas></center>
+	</div>
+	
+
+</body>
+
+</html>
